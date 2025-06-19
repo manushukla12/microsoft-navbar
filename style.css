@@ -1,0 +1,120 @@
+body, html {
+    margin: 10;
+    padding: 10;
+    font-family:  Arial;
+    box-sizing:content-box;
+  }
+  
+  .navbar {
+    width: 100%;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0 16px;
+    height: 54px;
+    box-shadow: 0 2px 8px rgba(225, 198, 198, 0.05);
+    justify-content: space-between;
+    overflow-x: auto;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #7e8b96;
+    letter-spacing: 1px;
+    flex-shrink: 0;
+  }
+  .logo img {
+    height: 32px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .nav-link {
+    color: #222;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.2s;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+  }
+  .nav-link:hover {
+    color: #0078d4;
+    border-bottom: 2px solid #0078d4;
+  }
+  
+  .all-microsoft {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #222;
+    font-weight: 500;
+    margin-left: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 5px 12px;
+    border-radius: 4px;
+    transition: background 0.2s;
+    user-select: none;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .all-microsoft:hover {
+    background: #f3f3f3;
+  }
+  .all-microsoft svg {
+    margin-left: 4px;
+    fill: #222;
+  }
+  
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+  }
+  
+  .nav-icon {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #222;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .nav-icon img {
+    height: 24px;
+    width: 24px;
+    display: block;
+    filter: grayscale(100%) brightness(0.3);
+    transition: filter 0.2s;
+  }
+  
+  .nav-icon:hover img,
+  .nav-icon:hover {
+    filter: none;
+    color: #0078d4;
+  }
+  
+  .icon-label {
+    margin-left: 2px;
+    font-size: 1rem;
+    color: #222;
+    font-weight: 500;
+  }
